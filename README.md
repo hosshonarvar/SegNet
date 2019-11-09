@@ -1,7 +1,7 @@
 # Image-Segmentation
 Challenge problem: Image segmentation of celebrity faces
 
-In this project, I have developed a deep learning framework for image segmentation of celebrity faces.
+In this project, I have developed a deep learning framework for image segmentation of celebrity faces. Below I summurize the main sections and more details can be found in the notebook file.
 
 1-Dataset
 
@@ -11,7 +11,6 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - Dataset created for this project is in "/Face/1000Tr200Va200Te/" folder and the "Face.tar" can be downloaded from https://drive.google.com/file/d/1tKuTmi6QykzV1YicdGK7x6oPIJDsZI12/view.
 
-- The original CelebA images are rescaled to 256x256x3 for inputs and 256x256 (no channel) for outputs. The greyscale pixels of output are further classified into background class (if pixel<=128 then class=0) and face class (if pixel>128 then class=1).
 
 2-Training
 
@@ -20,10 +19,6 @@ In this project, I have developed a deep learning framework for image segmentati
 - As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed as the encoder. The vgg16.npy file can be downloaded from https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM, which should be in the main folder.
 
 - The trained model is in "/Model/" folder and the "Model.tar" with all the files can be downloaded from https://drive.google.com/file/d/1POYr3ce2o34_d0e5PpYp8-FjgTNYf0yP/view.
-
-- The paths for the train/dev/test dataset and the model are set in the "config_train_ADAM.json" file.
-
-- For optimization, adaptive learning rate optimization (ADAM) algorithm with learning rate 0.001 is used.
 
 - To run the code, Python 3.6.5 and Tensorflow 1.13.1 are used on a CPU machine.
 
