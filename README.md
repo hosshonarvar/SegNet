@@ -17,6 +17,8 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed as the encoder. The vgg16.npy file can be downloaded from https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM, which should be in the main folder.
 
+- The trained model is in "/Model/" folder and the "Model.tar" with all the files can be downloaded from https://drive.google.com/file/d/1POYr3ce2o34_d0e5PpYp8-FjgTNYf0yP/view.
+
 - The paths for the train/dev/test dataset and the model are set in the "config_train_ADAM.json" file.
 
 - For optimization, adaptive learning rate optimization (ADAM) algorithm with learning rate 0.001 is used.
