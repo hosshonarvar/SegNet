@@ -22,9 +22,10 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - To run the code, Python 3.6.5 and Tensorflow 1.13.1 are used on a CPU machine.
 
-- Performance results: accuracy = 0.990128, mean IU = 0.977189, class # 0 accuracy = 0.995174, class # 1 accuracy = 0.978935
 
 3-Results
+
+- Performance results: accuracy = 0.990128, mean IU = 0.977189, class # 0 accuracy = 0.995174, class # 1 accuracy = 0.978935
 
 - The model uncertainties are calculated based on Bayesian SegNet in http://arxiv.org/abs/1511.02680.
 
