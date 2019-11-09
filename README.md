@@ -25,7 +25,5 @@ In this project, I have developed a deep learning framework for image segmentati
 
 3-Results
 
-- The trained model is used to segment a face from background in an image.
-
 - The model uncertainties are calculated based on Bayesian SegNet in http://arxiv.org/abs/1511.02680.
 
