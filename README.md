@@ -9,6 +9,8 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - A dataset with 1400 images is used where the training dataset has 1000 images, the development dataset has 200 images, and the test dataset has 200 images.
 
+- Dataset created for this project is in "/Face/1000Tr200Va200Te/" folder and the "Face.tar" can be downloaded from https://drive.google.com/file/d/1tKuTmi6QykzV1YicdGK7x6oPIJDsZI12/view.
+
 - The original CelebA images are rescaled to 256x256x3 for inputs and 256x256 (no channel) for outputs. The greyscale pixels of output are further classified into background class (if pixel<=128 then class=0) and face class (if pixel>128 then class=1).
 
 2-Training
