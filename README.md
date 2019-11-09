@@ -22,3 +22,14 @@ In this project, I have developed a deep learning framework for image segmentati
 - To run the code, Python 3.6.5 and Tensorflow 1.13.1 are used on a CPU machine.
 
 - Performance results: accuracy = 0.990128, mean IU = 0.977189, class # 0 accuracy = 0.995174, class # 1 accuracy = 0.978935
+
+3-Results
+
+- In this section, the trained model is used to segment a face from background in an image.
+
+- The cell in 4.1 predicts the faces from training dataset.
+
+- The cell in 4.2 uses the model to predict from new datasets such as test dataset.
+
+- The model uncertainties are calculated based on Bayesian SegNet in http://arxiv.org/abs/1511.02680.
+
