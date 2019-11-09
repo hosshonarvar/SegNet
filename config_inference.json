@@ -1,0 +1,18 @@
+{
+  "TRAIN_FILE": "./Face/1000Tr200Va200Te/Train1000.txt",
+  "VAL_FILE": "./Face/1000Tr200Va200Te/Dev200.txt",
+  "TEST_FILE": "./Face/1000Tr200Va200Te/Test200.txt",
+  "IMG_PREFIX": ".",
+  "LABEL_PREFIX": ".",
+  "BAYES": true,
+  "OPT": "ADAM",
+  "SAVE_MODEL_DIR": "./Model/model.ckpt-0",
+  "INPUT_HEIGHT": 256,
+  "INPUT_WIDTH": 256,
+  "INPUT_CHANNELS": 3,
+  "NUM_CLASSES": 2,
+  "USE_VGG": true,
+  "VGG_FILE": "vgg16.npy",
+  "TB_LOGS": "tensorboard_logs",
+  "BATCH_SIZE": 1
+}
