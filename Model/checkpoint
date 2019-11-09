@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/hosseinhonarvar/Documents/Job_Postdoc/Pending/FellowshipAI/Segmentation/CelebA/Face/1000Tr200Va200Te/ModelADAM/model.ckpt-0"
+all_model_checkpoint_paths: "/Users/hosseinhonarvar/Documents/Job_Postdoc/Pending/FellowshipAI/Segmentation/CelebA/Face/1000Tr200Va200Te/ModelADAM/model.ckpt-0"
