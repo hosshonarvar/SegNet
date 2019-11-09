@@ -1,7 +1,7 @@
 # Image-Segmentation
 Challenge problem: Image segmentation of celebrity faces
 
-In this project, I have developed a deep learning framework for image segmentation of celebrity faces. Below I summurize the the components of the project and more details can be found in the notebook file.
+In this project, I have developed a deep learning framework for image segmentation of celebrity faces. Below I summurize the components of the project and more details can be found in the notebook file.
 
 1-Dataset
 
