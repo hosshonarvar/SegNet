@@ -15,6 +15,8 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - To develop the model, I used the implementation of SegNet neural network in http://github.com/toimcio/SegNet-tensorflow -- the SegNet was proposed in http://arxiv.org/abs/1511.00561 and http://arxiv.org/abs/1511.02680 for segmentation of objects in an image.
 
+- As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed as the encoder. The vgg16.npy file can be downloaded from https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM, which should be in the main folder.
+
 - The paths for the train/dev/test dataset and the model are set in the "config_train_ADAM.json" file.
 
 - For optimization, adaptive learning rate optimization (ADAM) algorithm with learning rate 0.001 is used.
