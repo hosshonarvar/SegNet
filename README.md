@@ -27,3 +27,4 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - The model uncertainties are calculated based on Bayesian SegNet in http://arxiv.org/abs/1511.02680.
 
+<img src="SegmentedFaces.png">
