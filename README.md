@@ -9,7 +9,7 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - A dataset with 1400 images is used where the training dataset has 1000 images, the development dataset has 200 images, and the test dataset has 200 images.
 
-- The dataset created for this project is in a "/Face/1000Tr200Va200Te/" folder. The tar file for this folder ("Face.tar") can be downloaded from https://drive.google.com/file/d/1tKuTmi6QykzV1YicdGK7x6oPIJDsZI12/view.
+- The dataset created for this project is in "/Face/1000Tr200Va200Te/" folder, which is currently empty due to the storgae limit. The tar file for this folder ("Face.tar") can be downloaded from https://drive.google.com/file/d/1tKuTmi6QykzV1YicdGK7x6oPIJDsZI12/view.
 
 
 2-Training
@@ -18,7 +18,7 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed as the encoder. The vgg16.npy file can be downloaded from https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM, which should be in the main folder.
 
-- The trained model is in "/Model/" folder and the "Model.tar" with all the files can be downloaded from https://drive.google.com/file/d/1POYr3ce2o34_d0e5PpYp8-FjgTNYf0yP/view.
+- The trained model is in "/Model/" folder, which does not have all the files due to the storage limit . The tar file for this folder ("Model.tar") with all the files can be downloaded from https://drive.google.com/file/d/1POYr3ce2o34_d0e5PpYp8-FjgTNYf0yP/view.
 
 - To run the code, Python 3.6.5 and Tensorflow 1.13.1 are used on a CPU machine.
 
