@@ -16,7 +16,7 @@ In this project, I have developed a deep learning framework for image segmentati
 
 - To develop the model, I used the implementation of SegNet neural network in http://github.com/toimcio/SegNet-tensorflow -- the SegNet was proposed in http://arxiv.org/abs/1511.00561 for segmentation of objects in an image.
 
-- As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed as the encoder. The vgg16.npy file can be downloaded from https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM, which should be in the main folder.
+- As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed as the encoder. The vgg16.npy file can be downloaded from https://mega.nz/#!YU1FWJrA!O1ywiCS2IiOlUCtCpI6HTJOMrneN-Qdv3ywQP5poecM, which should be in the root folder.
 
 - The trained model is in "/Model/" folder, which does not have all the files due to the storage limit . The tar file for this folder ("Model.tar") with all the files can be downloaded from https://drive.google.com/file/d/1POYr3ce2o34_d0e5PpYp8-FjgTNYf0yP/view?usp=sharing.
 
