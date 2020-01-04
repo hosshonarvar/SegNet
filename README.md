@@ -1,4 +1,4 @@
-# Image-Segmentation-others-code
+# SegNet
 
 I have implemented the SegNet algorithm for image segmentation of faces:
 
