@@ -20,4 +20,4 @@ To run the code, Python 3.6.5 and Tensorflow 1.13.1 are used on a GPU machine in
 
 3-Results
 
-<img src="Results.png">
+<img src="Performance.png">
