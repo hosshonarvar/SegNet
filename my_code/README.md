@@ -19,3 +19,5 @@ As part of the SegNet algorithm, the pretrained VGG-16 neural network is needed 
 To run the code, Python 3.6.5 and Tensorflow 1.13.1 are used on a GPU machine in Google Colab.
 
 3-Results
+
+<img src="Results.png">
