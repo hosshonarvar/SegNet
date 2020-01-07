@@ -8,7 +8,7 @@ The Large-scale CelebFaces Attributes (CelebA) dataset in http://mmlab.ie.cuhk.e
 
 A dataset with 1400 images is used where the training dataset has 1000 images, the development dataset has 200 images, and the test dataset has 200 images.
 
-The dataset created for this project is in "/Face/1000Tr200Va200Te/" folder, which is currently empty due to the storage limit. The tar file for this folder ("Face.tar") can be downloaded from https://drive.google.com/file/d/1xUrSGHzlloKb_tGjONK6fyCn_1snAWjk/view?usp=sharing.
+The dataset created for this project is in "/Face/1000Tr200Va200Te/" folder, which is currently empty due to the storage limit. The tar file for this folder ("Face.tar") can be downloaded from https://drive.google.com/file/d/1xUrSGHzlloKb_tGjONK6fyCn_1snAWjk/view?usp=sharing. You need to change the name "Face" to "Dataset".
 
 2-Training
 
